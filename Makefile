@@ -1,6 +1,6 @@
 # dwmsd - dynamic window manager status daemon
 
-CONFIGMK = nonexistant.mk
+CONFIGMK = config.mk.freebsd
 
 ifeq ($(OS),Windows_NT)
     #CCFLAGS += -D WIN32
